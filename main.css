@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*NAVBAR*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -49,6 +50,7 @@ nav{
      margin: 5px;
  }
 
+ /*LANDING PAGE IMAGE*/
  .grow {
      background-image: url('img/Kal.jpg');
      height: 100vh;
@@ -57,6 +59,19 @@ nav{
      background-size: cover;
  }
 
+
+ /*SECOND SECTION: OWNER*/
+ .owner{
+     width: 80%;
+     margin: auto;
+ }
+
+ .container{
+    display: grid;
+    grid-template: 1.5fr 0.5fr;
+ }
+
+/*MEDIA QUERIES*/
  @media screen and (max-width: 1024px) {
     
     .nav-links{
