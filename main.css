@@ -51,6 +51,8 @@ nav{
      margin: 5px;
  }
 
+ /*END OF NAVBAR*/
+
  /*LANDING PAGE IMAGE*/
  .grow {
      background-image: url('img/Kal.jpg');
@@ -201,14 +203,27 @@ nav{
     grid-column: 3/5;
 }
 
-
-
-
-
-
-
-
 /*END OF SECTION: TRENDING*/
+
+
+/*START OF SECTION: TESTIMONIAL*/
+
+
+
+
+
+
+
+
+
+
+/*END OF SECTION: TESTIMONIAL*/
+
+
+
+
+
+
 
 
 /*MEDIA QUERIES*/
