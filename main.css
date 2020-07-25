@@ -128,6 +128,7 @@ nav{
 #categories{
     margin: auto;
     width: 80vw;
+    color: #fff;
 }
 
 #categories h4{
@@ -139,24 +140,76 @@ nav{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 19em;
     grid-gap: 2%;
+    margin-top: 2%;
 }
 
 #place1{
-    border: 2px solid red;
+    border: 2px solid blue;
     justify-content: center;
+    text-align: center;
 }
 
 #place2{
     border: 2px solid red;
+    text-align: center;
 }
 
 #place3{
     border: 2px solid red;
+    text-align: center;
 }
 
 #place4{
     border: 2px solid red;
+    text-align: center;
 }
+
+/*END OF SECTION: CATEGORIES*/
+
+/*START OF SECTION: TRENDING*/
+.trending{
+    margin-top: 2%;
+    height: 80vh;
+}
+
+.trend{
+    margin: auto;
+    width: 80%; 
+    display: grid;
+    grid-gap: 1%;
+   
+}
+
+/*.trend1{
+    border: 2px solid red;
+    grid-row: 1/4;
+}
+
+.trend2{
+    border: 2px solid red;
+    grid-column: 2/3;
+    grid-template-columns: 40em;
+}
+
+.trend3{
+    border: 2px solid red;
+    grid-column: 3/4;
+}
+
+.trend4{
+    border: 2px solid red;
+    grid-column: 2/4;
+}*/
+
+
+
+
+
+
+
+
+/*END OF SECTION: TRENDING*/
+
 
 /*MEDIA QUERIES*/
  @media screen and (max-width: 1024px) {
