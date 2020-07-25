@@ -170,36 +170,36 @@ nav{
 .trending{
     margin-top: 2%;
     height: 80vh;
-}
-
-.trend{
     margin: auto;
-    width: 80%; 
-    display: grid;
-    grid-gap: 1%;
-   
+    width: 80%;
 }
 
-/*.trend1{
+.trend{ 
+    display: grid;
+    grid-gap: 0.5%;
+    height: 80%;
+}
+
+.trend1{
     border: 2px solid red;
-    grid-row: 1/4;
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
 
 .trend2{
     border: 2px solid red;
-    grid-column: 2/3;
-    grid-template-columns: 40em;
+    grid-column: 3/4;
 }
 
 .trend3{
     border: 2px solid red;
-    grid-column: 3/4;
+    grid-column: 4/5;
 }
 
 .trend4{
     border: 2px solid red;
-    grid-column: 2/4;
-}*/
+    grid-column: 3/5;
+}
 
 
 
