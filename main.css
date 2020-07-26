@@ -208,6 +208,30 @@ nav{
 
 /*START OF SECTION: TESTIMONIAL*/
 
+.testimonial{
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 22em;
+}
+
+.test1{
+    width: 80%;
+    margin: 12% auto;
+}
+
+.test1 blockquote{
+    margin: 2.5% 0;
+    line-height: 2em;
+}
+
+.test1 p {
+    margin-left: 7%;
+}
+
+.test2{
+    border: 2px solid red;
+}
 
 
 
