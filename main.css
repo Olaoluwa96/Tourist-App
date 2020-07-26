@@ -279,8 +279,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 25em;
-    grid-gap: 2%;
-    
+    grid-gap: 2%;  
 }
 
 .blogger img {
@@ -328,16 +327,55 @@ nav{
 
 /*START OF SECTION: LATEST PHOTOS*/
 
+.photos{
+    margin: 8% auto;
+    height: 50vh;
+    width: 100vw;
+}
 
+.photos h1, .photos h4 {
+    width: 80vw;
+    margin: auto;
+}
 
+.photo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 22em; 
+}
 
+.photo1, .photo2, .photo3, .photo4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.photo1{
+    background-image: url(img/Kal.jpg);
+}
 
+.photo2{
+    background-image: url(img/coconut.jpg); 
+}
 
+.photo3{
+    background-image: url(img/rolands-varsbergs-miKmVyq3qhE-unsplash.jpg);
+}
 
-
+.photo4{
+    background-image: url(img/Kal.jpg);
+}
 
 /*END OF SECTION: LATEST PHOTOS*/
+
+
+/*START OF FOOTER*/
+
+
+
+
+
+/*END OF FOOTER*/
 
 
 /*MEDIA QUERIES*/
